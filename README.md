@@ -14,6 +14,8 @@ The goal is to develop a modern and user-friendly online presence for the restau
 App Service, Static Web Apps, Visual Studio code
 # Azure AI Service:
 AI Language, Azure Bot Services
+# Github Deployement URL:
+https://vandanac20.github.io/FRTproject/
 
 ![Screenshot (36)](https://github.com/vandanac20/FRTproject/assets/112802256/06955b8f-3db5-4ccd-9b6c-512b3be7f320)
 ![Screenshot (37)](https://github.com/vandanac20/FRTproject/assets/112802256/5c612483-1ba1-4538-ac2f-a6f20b74c70d)
