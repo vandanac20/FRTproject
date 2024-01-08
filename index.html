@@ -532,30 +532,30 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<div class="reservation book-right">
 		<div class="container">
-			<h3 class="w3layouts-title title-reserve">Make a Reservation</h3>
-			<div class="book-left1"></div>
-			<div class="book-right1">
-				<form action="#" method="post" class="book-right2">
-					<div class="date-field">
-						<label>Date :</label>
-						<input type="text" id="datepicker" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}"
-						required="">
-					</div>	
-					<div class="form-left">
-						<label>No.of People :</label>
-						<select required="">
-							<option value="">1 Person</option>
-							<option value="1">2 </option>
-							<option value="2">3 </option>
-							<option value="3">4 </option>
-							<option value="4"> 5</option>
-							<option value="5">More</option>
-						</select>
-					</div>
-					<div class="form-right">
-						<label>Time :</label>
-						<select required="">
-							<option value="">Select Time</option>
+		  <h3 class="w3layouts-title title-reserve">Make a Reservation</h3>
+		  <div class="book-left1"></div>
+		  <div class="book-right1">
+			<form action="#" method="post" class="book-right2" onsubmit="redirectToNextPage(); return false;">
+			  <div class="date-field">
+				<label>Date :</label>
+				<input type="text" id="datepicker" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
+			  </div>  
+			  <div class="form-left">
+				<label>No.of People :</label>
+				<select required="">
+					<option value=""> Person</option>
+					<option value="1">1 </option>
+					<option value="2">2 </option>
+					<option value="3">3 </option>
+					<option value="4">4 </option>
+					<option value="5">5</option>
+					<option value="6">More</option>
+				</select>
+			  </div>
+			  <div class="form-right">
+				<label>Time :</label>
+				<select required="">
+				  <option value="">Select Time</option>
 							<option value="1">10:00</option>
 							<option value="2">11:00</option>
 							<option value="3">12:00</option>
@@ -569,24 +569,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<option value="11">20:00</option>
 							<option value="12">21:00</option>
 							<option value="13">22:00</option>
-
-
-						</select>
-
-					</div>
-					<div class="clearfix"> </div>
-					<div class="phone-info">
-						<label>Contact Info :</label>
-						<input type="text" placeholder="Phone Number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Contact';}"
-						required="">
-					</div>	
-					<input type="submit" value="Book a Table">
-				</form>
-			</div>
-
-			<div class="clearfix"> </div>
+				</select>
+			  </div>
+			  <div class="clearfix"></div>
+			  <div class="phone-info">
+				<label>Contact Info :</label>
+				<input type="text" placeholder="Phone Number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Contact';}" required="">
+			  </div>
+			  <input type="submit" value="Book a Table">
+			</form>
+		  </div>
+		  <div class="clearfix"></div>
 		</div>
-	</div>
+	  </div>
+	
+	  <script>
+		function redirectToNextPage() {
+		  window.location.href = 'https://restrauntapp.azurewebsites.net/';
+		}
+	
+		$(function() {
+		  $("#datepicker").datepicker();
+		});
+	  </script>
 
 	<div class="slid">
 		<div class="slid-text">
@@ -601,7 +606,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="contact-bottom" id="contact">
 		<div class="col-md-6  bot">
 			<h3 class="title-contact">Help Centre</h3>
-			<iframe src='https://webchat.botframework.com/embed/restrauntbot-bot?s=lzY8kGfSDBo.hh3gw7ZiLil9p-Kwo7m3xFi-hiEbFdMIiMc3es-jE4A' 
+			<iframe src='https://webchat.botframework.com/embed/restraunt-bot?s=ggqr0LSPOwU.JIFI4TsiK6Kkjk4rKf1Z3jQkCa6TPZ41PLYKmwhYUWE'  
 			style='min-width: 400px; width: 90%; min-height: 400px;'></iframe>
 
 		</div>
