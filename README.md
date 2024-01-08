@@ -11,12 +11,16 @@ The website should allow users to navigate the menu, make reservations, and inte
 It also contains an AI chatbot, leveraging these Azure services which should enhance the user experience by intelligently responding to customer queries, managing reservation requests, and providing a personalized and interactive engagement. 
 The goal is to develop a modern and user-friendly online presence for the restaurant, enhancing customer satisfaction through a process of AI-driven interactions.
 # Core Azure Services:
-Static Web Apps -Developed a responsive and visually appealing restaurant website using HTML, CSS, and JavaScript.
+Static Web Apps:  
+Developed a responsive and visually appealing restaurant website using HTML, CSS, and JavaScript.
 Deployed it using static web apps
-App Service - Implemented a dedicated section for table reservations on the restaurant website.
+
+App Service:  
+Implemented a dedicated section for table reservations on the restaurant website.
 Utilized Azure App Service to deploy the table booking
 # Azure AI Service:
-Azure Bot Services- Created an intelligent chatbot using Azure Bot Services to facilitate seamless communication.
+Azure Bot Services:   
+Created an intelligent chatbot using Azure Bot Services to facilitate seamless communication.
 Linked the chatbot with the restaurant's knowledge base to provide accurate and context-aware responses.
 # Github Deployement URL:
 https://vandanac20.github.io/FRTproject/
